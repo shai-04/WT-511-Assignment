@@ -1,0 +1,189 @@
+/* Used for all web pages : Questions 1, 2, 3, 4 and 5*/
+*{
+	font-family: "Calibri", "Arial", "Sans-Serif";
+}
+
+.clr{
+	clear: both;
+}
+
+.annotation{
+	color: gold;
+	text-align: center;
+}
+
+.container{
+	margin: auto;
+	width: 90%;
+}
+
+header img{
+	float: left;
+}
+
+header input{
+	float: right;
+	border-radius: 10px;
+	margin-top: 80px;
+}
+
+nav{
+	width: 100%;
+	background: navy;
+	height: 39px;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+nav ul li{
+	float: left;
+	/*margin-top: 20px;*/
+}
+
+nav ul li a{
+	width: 150px;
+	color: gold;
+	display: block;
+	text-decoration: none;
+	/*font-size: 20px;*/
+	text-align: center;
+	padding: 10px;
+}
+
+nav ul li a:hover{
+	color: navy;
+	background: gold;
+	transition: 0.5s ease;
+}
+
+nav ul li ul li a:hover{
+	color: white;
+	background: gold;
+	transition: 0.5s ease;
+}
+
+nav ul li ul{
+	background: black;
+	display: none;
+}
+
+nav ul li ul li{
+	float: none;
+}
+
+nav ul li:hover ul{
+	display: block;
+}
+
+footer{
+	background-color: navy;
+	color: gold;
+	text-align: center;
+	padding: 2px;
+	margin-top: 25px;
+}
+
+/* Used for Question One in particular*/
+
+#home_section img{
+	display: block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#home_section h4{
+	color: gold;
+}
+
+#home_section ul{
+	padding-left: 15px;
+}
+
+/* Used for Question two in particular */
+
+video{
+	float: left;
+}
+
+#vectors{
+	float: right;
+}
+
+video, #vectors{
+	margin-top: 10px;
+}
+
+/* Used for Question Three in particular */
+
+#pay_text{
+	width: 70%;
+	float: left;
+}
+
+#pay_text h4{
+	color: gold;
+}
+
+#pay_images{
+	width: 30%;
+	float: right;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+/* Used for Question Five in particular */
+
+form{
+	margin-top: 20px;
+	width: 70%;
+}
+
+form input[type = "text"], input[type = "email"], input[type = "tel"]{
+	margin-top: 20px;
+	width: 100%;
+}
+
+input[type = "date"]{
+	display: block;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.formGroup236, #formGroup4, #formGroup5{
+	margin-top: 20px;
+}
+
+.formGroup236 label{
+	float: left;
+}
+
+.formGroup236 select{
+	width: 50%;
+	float: right;
+}
+
+form textarea{
+	width: 100%;
+	margin-top: 20px;
+}
+
+form input[type = "submit"]{
+	margin-top: 20px;
+}
+
+.radioLabels{
+	width: 50%;
+	float: left;
+}
+
+.radioOption{
+	width: 50%;
+	float: right;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<!-- This web page has been created by Shaiyur Dooken - 151 757 for
+	 Question Five of the Web Technology 511 Assignment.
+-->
+
+<html lang = "en">
+	<head>
+		<link rel = "stylesheet" type = "text/CSS" href = "Assets\CSS\style.css">
+		
+		<title>Richfield | Apply Now</title>
+		
+		<meta charset = "UTF-8">
+		<meta name = "description" content = "Richfield Application Page">
+	</head>
+	
+	<body>
+		<header>
+			<img src = "Assets\Images\logo.jpg" alt = "Richfield Logo">
+			<input type = "text">
+		</header>
+		
+		<div class = "clr"></div>
+		
+		<div class = ".container">
+			<nav>
+				<ul>
+					<li><a href = "index.html">Home Page</a></li>
+					<li><a href = "payment.html">Payment Methods</a></li>
+					<li><a href = "media.html">Media</a></li>
+					<li><a href = "#">Campuses</a></li>
+					<li><a href = "#">Study with us</a></li>
+					<li>
+						<a href = "#">Programs</a>
+						
+						<ul>
+							<li><a href = "#">HET</a></li>
+							<li><a href = "#">FET</a></li>
+							<li><a href = "#">TVET</a></li>
+							<li><a href = "#">Skills</a></li>
+						</ul>
+					</li>
+					<li><a href = "apply.html">Apply Now</a></li>
+				</ul>
+			</nav>
+			
+			<div class = "clr"></div>
+			
+			<form>
+				<div id = "formGroup17">
+					<input type = "text" id = "firstName" placeholder = "First Name" title = "Enter your first name here" pattern = "[A-Z a-z]+" required autofocus>
+					
+					<input type = "text" id = "lastName" placeholder = "Last Name" title = "Enter your surname here" pattern = "[A-Z a-z]+"required>
+					
+					<input type = "email" id = "email" name = "email" placeholder = "Email Address" title = "someone@host.domain" required>
+					
+					<input type = "tel" id = "cellNo" placeholder = "Cellphone Number" title = "10 digits" maxlength = "10" pattern = "[0-9]{10}" required>
+					
+					<input type = "text" id = "idNo" placeholder = "Identification Number" title = "13 digits" maxlength = "13" pattern = "[0-9]{13}" required>
+					
+					<input type = "date" id = "dob" placeholder = "Date of Birth" max = "2002-12-31" min = "1959-01-01" required>
+				</div>
+				
+				<div class = "formGroup236">
+					<label for = "courses">Course</label>
+					
+					<select id = "courses" name = "courses">
+						<option = "het">HET</option>
+						<option = "fet">FET</option>
+						<option = "tvet">TVET</option>
+						<option = "skills">Skills</option>
+					</select>
+				</div>
+				
+				<div class = "clr"></div>
+				
+				<div class = "formGroup236">
+					<label for = "education">Highest Education Level</label>
+					
+					<select id = "courses" name = "courses">
+						<option = "tertiary">Tertiary Level Institution</option>
+						<option = "matric">Grade 12 | Matric</option>
+						<option = "grade11">Grade 11</option>
+						<option = "grade10">Grade 10</option>
+						<option = "grade9">Grade 9</option>
+						<option = "grade8">Grade 8</option>
+					</select>
+				</div>
+
+				<div class = "clr"></div>
+				
+				<div id = "formGroup4">
+					<div class = "radioLabels">
+						<label for = "idType">Identification Type</label>
+					</div>
+					
+					<div class = "radioOption">
+						<input type = "radio" id = "idNum" name = "idType" value  = "idNum" required>
+						<label for = "idNum">ID Number</label>
+						
+						<br>
+						
+						<input type = "radio" id = "passNum" name = "idType" value  = "passNum" required>
+						<label for = "passNum">Passport Number</label>
+					</div>
+				</div>
+				
+				<div class = "clr"></div>
+				
+				<div id = "formGroup5">
+					<div class = "radioLabels">
+						<label for = "gender">Gender</label>
+					</div>
+					
+					<div class = "radioOption">
+						<input type = "radio" id = "male" name = "gender" value  = "male" required>
+						<label for = "male">Male</label>
+						
+						<br>
+						
+						<input type = "radio" id = "female" name = "gender" value  = "female" required>
+						<label for = "female">Female</label>
+					</div>
+				</div>
+				
+				<div class = "clr"></div>
+				
+				<div class = "formGroup236">
+					<label for = "population">Population Group</label>
+					
+					<select id = "population" name = "population">
+						<option = "asian">Asian</option>
+						<option = "african">African</option>
+						<option = "white">White</option>
+						<option = "coloured">Coloured</option>
+						<option = "other">Other</option>
+					</select>
+				</div>
+				
+				<div class = "clr"></div>
+				
+				<div id = "formGroup17">
+					<input type = "text" id = "nationality" placeholder = "Nationality" title = "Letters of the alphabet only" pattern = "[A-Z a-z]+" required>
+				</div>
+				
+				<div>
+					<textarea id = "address" rows = 4 placeholder = "Address" title = "Enter your residential address" required></textarea>
+				</div>
+				
+				<input type = "submit" value = "Submit">
+			</form>
+			
+		</div>
+		
+		<footer>
+			<p>&reg; Website designed by 151757&trade; BSc IT 2020 &copy; All Rights Reserved</p>
+		</footer>
+	</body>
+</html>
